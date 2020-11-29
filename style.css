@@ -1,0 +1,236 @@
+:root {
+  --primary-text-color: #212121;
+  --tittle-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+  --background-color: #e5e5e5;
+  --background-color-second: #2f303a;
+  --background-color-third: #f5f4fa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  /* background-color: var(--background-color); */
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+  /* font-family: "Raleway", sans-serif; */
+}
+header {
+  background-color: var(--primary-bg-color);
+}
+/* Логотип */
+.logo {
+  font-family: "Raleway", sans-serif;
+  color: var(--primary-text-color);
+}
+
+.logo-blue {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.logo-black {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19em;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.logo-white {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19em;
+  letter-spacing: 0.03em;
+  color: var(--primary-bg-color);
+}
+/* Меню сайта */
+.main-nav .list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.02em;
+  /* color: var(--accent-color); */
+}
+
+.main-nav .link {
+  text-transform: capitalize;
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+/* .main-nav a:visited, */
+.main-nav .link:active,
+.main-nav .link:hover,
+.main-nav .link:focus {
+  color: var(--accent-color);
+}
+.main-tel a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.02em;
+  color: var(--tittle-text-color);
+}
+
+/*main-tel a:visited, */
+.main-tel a:active,
+.main-tel a:hover,
+.main-tel a:focus {
+  color: var(--accent-color);
+}
+
+.hero {
+  background-color: var(--background-color-second);
+  color: var(--primary-bg-color);
+  text-align: center;
+}
+
+.hero h1 {
+  text-transform: uppercase;
+  font-size: 44px;
+  line-height: 1.36em;
+  letter-spacing: 0.06em;
+}
+.hero a:active,
+.hero a:hover,
+.hero a:focus {
+  color: var(--primary-text-color);
+}
+.hero a {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87em;
+  letter-spacing: 0.06em;
+  color: var(--primary-bg-color);
+}
+
+.softskill .do {
+  background: var(--background-color);
+}
+
+.softskill h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+.softskill p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71em;
+  letter-spacing: 0.03em;
+  color: var(--tittle-text-color);
+}
+
+.b1 {
+  background: var(--background-color);
+  border-radius: 4px;
+}
+
+.b1:hover,
+.b1:focus {
+  background: var(--accent-color);
+  color: var(--primary-bg-color);
+}
+
+.team {
+  background-color: var(--background-color-third);
+}
+
+.do h2,
+.team h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17em;
+  letter-spacing: 0.03em;
+}
+.employee-info {
+  background: var(--primary-bg-color);
+}
+
+.employee-info h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18em;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.employee-info p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18em;
+  text-align: center;
+  color: var(--tittle-text-color);
+}
+/* .menu {
+  background: var(--background-color);
+} */
+
+.skill-info {
+  background: var(--primary-bg-color);
+  /* border: 1px solid #eeeeee; */
+  box-sizing: border-box;
+}
+
+.skill-info h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2em;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+
+.skill-info p {
+  color: var(--tittle-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 88em;
+  letter-spacing: 0.03em;
+}
+/* Подвал */
+footer {
+  background-color: var(--background-color-second);
+  color: var(--primary-bg-color);
+}
+
+.address {
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71em;
+  letter-spacing: 0.03em;
+  color: var(--primary-bg-color);
+}
+
+.contact {
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71em;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
