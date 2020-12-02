@@ -1,3 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inhe-block--rit;
+}
+
 :root {
   --primary-text-color: #212121;
   --tittle-text-color: #757575;
@@ -61,6 +71,7 @@ header {
 }
 /* Меню сайта */
 .main-nav-list {
+  outline: 1px solid;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14em;
@@ -115,6 +126,10 @@ header {
   color: var(--primary-text-color);
 }
 .hero a {
+  display: inline-block;
+  background-color: var(--accent-color);
+  padding: 32px 10px;
+  border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87em;
