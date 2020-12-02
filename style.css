@@ -8,10 +8,10 @@
   --background-color-third: #f5f4fa;
 }
 
-* {
+/* * {
   margin: 0;
   padding: 0;
-}
+} */
 a {
   text-decoration: none;
   color: var(--primary-text-color);
@@ -60,7 +60,7 @@ header {
   color: var(--primary-bg-color);
 }
 /* Меню сайта */
-.main-nav .list {
+.main-nav-list {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14em;
@@ -68,7 +68,7 @@ header {
   /* color: var(--accent-color); */
 }
 
-.main-nav .link {
+.main-nav-list {
   text-transform: capitalize;
 }
 
@@ -77,9 +77,9 @@ header {
 }
 
 /* .main-nav a:visited, */
-.main-nav .link:active,
-.main-nav .link:hover,
-.main-nav .link:focus {
+.main-nav-list .link:active,
+.main-nav-list .link:hover,
+.main-nav-list .link:focus {
   color: var(--accent-color);
 }
 .main-tel a {
