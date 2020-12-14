@@ -197,8 +197,23 @@ header {
 
 .softskill ul,
 li {
-  margin: 0px;
-  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.softskill-list {
+  display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  padding-left: 0px;
+}
+
+.softskill-list .item {
+  margin-right: 30px;
+}
+
+.softskill-list .item:last-child {
+  margin-right: 0px;
 }
 
 .softskill .do {
@@ -206,7 +221,6 @@ li {
 }
 
 .softskill h3 {
-  padding-top: 94px;
   margin-top: 0px;
   margin-bottom: 10px;
   font-weight: 700;
