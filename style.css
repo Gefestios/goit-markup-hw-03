@@ -42,7 +42,7 @@ header {
 /* Контейнер */
 .container {
   outline: 1px solid red;
-  width: 1170px;
+  width: 1200px;
   padding: 0px 15px;
   margin-left: auto;
   margin-right: auto;
@@ -220,6 +220,19 @@ li {
   background: var(--background-color);
 }
 
+.do-list {
+  display: flex;
+  padding-bottom: 94px;
+}
+
+.do-list .item {
+  margin-right: 30px;
+}
+
+.do-list .item:last-child {
+  margin-right: 0px;
+}
+
 .softskill h3 {
   margin-top: 0px;
   margin-bottom: 10px;
@@ -258,6 +271,18 @@ li {
 
 .team {
   background-color: var(--background-color-third);
+}
+
+.team-list {
+  display: flex;
+}
+
+.team-list .item {
+  margin-right: 30px;
+}
+
+.team-list .item:last-child {
+  margin-right: 0px;
 }
 
 .do h2,
@@ -324,6 +349,10 @@ li {
   padding-left: 0px;
 }
 
+.button-list {
+  display: flex;
+}
+
 .skill-info {
   background: var(--primary-bg-color);
   /* border: 1px solid #eeeeee; */
@@ -354,12 +383,16 @@ footer {
 }
 
 .adress-one ul {
-  margin: 0px;
+  margin-top: 20px;
+  margin-bottom: 0px;
   padding: 0px;
 }
 
 .adress-one li {
   margin-bottom: 9px;
+}
+.adress-one li:last-child {
+  margin-bottom: 0px;
 }
 
 .address {
@@ -392,3 +425,24 @@ p {
   margin-top: 0px;
   margin-bottom: 0px;
 } */
+
+.flex-container {
+  background-color: teal;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-element {
+  background-color: tomato;
+  width: calc((100% - 60px) / 3);
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.flex-element:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.flex-element:nth-last-child(-n + 3) {
+  margin-bottom: 0px;
+}
