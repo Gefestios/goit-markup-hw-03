@@ -203,7 +203,13 @@ header {
 .softskill ul,
 li {
   margin-top: 0px;
+  margin-right: 8px;
   margin-bottom: 0px;
+}
+
+.softskill ul,
+li:last-child {
+  margin-right: 0px;
 }
 
 .softskill-list {
