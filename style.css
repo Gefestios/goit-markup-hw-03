@@ -103,7 +103,9 @@ header {
 }
 
 .main-nav-list .item {
-  background-color: tomato;
+  /* background-color: tomato; */
+  padding-top: 32px;
+  padding-bottom: 32px;
   margin-right: 50px;
 }
 
@@ -123,13 +125,16 @@ header {
 }
 .main-tel {
   display: flex;
+  margin: 0px;
   margin-left: auto;
   padding: 0px;
 }
 
 .main-tel .item {
+  padding-top: 32px;
+  padding-bottom: 32px;
   margin-right: 50px;
-  background-color: yellowgreen;
+  /* background-color: yellowgreen; */
 }
 
 .main-tel .item:last-child {
@@ -292,6 +297,9 @@ li:last-child {
 
 .team-list .item {
   margin-right: 30px;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .team-list .item:last-child {
@@ -331,10 +339,6 @@ li:last-child {
 .team img {
   margin-bottom: 30px;
 }
-
-/* .employee-info {
-  background: var(--primary-bg-color);
-} */
 
 .employee-info h3 {
   margin-top: 0px;
@@ -381,6 +385,7 @@ li:last-child {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
+  border: 1px solid #eeeeee;
 }
 
 .flex-element a {
