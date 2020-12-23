@@ -373,7 +373,7 @@ li:last-child {
 }
 
 .flex-container {
-  background-color: teal;
+  /* background-color: teal; */
   display: flex;
   flex-wrap: wrap;
   padding-top: 56px;
@@ -381,7 +381,7 @@ li:last-child {
 }
 
 .flex-element {
-  background-color: tomato;
+  /* background-color: tomato; */
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
@@ -402,10 +402,10 @@ li:last-child {
 
 .skill-info {
   background: var(--primary-bg-color);
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
+  /* border: 1px solid #eeeeee; */
+  /* box-sizing: border-box; */
   padding-left: 24px;
-  padding-right: 24px;
+  /* padding-right: 24px; */
   padding-top: 20px;
   padding-bottom: 20px;
 }
