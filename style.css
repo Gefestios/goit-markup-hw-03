@@ -193,27 +193,12 @@ header {
 .hero a {
   display: inline-block;
   padding: 10px 32px;
-  /* margin-bottom: 200px; */
   border-radius: 4px;
   font-weight: 700;
   background-color: var(--accent-color);
   color: var(--primary-bg-color);
   line-height: 1.87em;
   letter-spacing: 0.06em;
-  /* display: inline-block;
-  background-color: var(--accent-color);
-  vertical-align: middle;
-  min-width: 130px;
-  margin-bottom: 200px;ƒ
-  text-align: center;
-  height: 50px;
-  padding: 32px 10px;
-  border-radius: 4px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87em;
-  letter-spacing: 0.06em;
-  color: var(--primary-bg-color); */
 }
 
 .softskill {
@@ -384,10 +369,18 @@ li:last-child {
   text-align: center;
   color: var(--tittle-text-color);
 }
+
+.menu {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.button-list {
+  padding-bottom: 50px;
+}
+
 .menu ul {
   margin: 0px;
-  padding-top: 94px;
-  padding-bottom: 56px;
   padding-left: 0px;
 }
 
@@ -400,8 +393,6 @@ li:last-child {
   /* background-color: teal; */
   display: flex;
   flex-wrap: wrap;
-  padding-top: 56px;
-  padding-bottom: 94px;
 }
 
 .flex-element {
