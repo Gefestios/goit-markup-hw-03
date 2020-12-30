@@ -161,6 +161,8 @@ header {
   background-image: url(./images/img.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--background-color-second);
   color: var(--primary-bg-color);
   text-align: center;
@@ -172,7 +174,7 @@ header {
   font-size: 44px;
   line-height: 1.36em;
   letter-spacing: 0.06em;
-  padding-top: 200px;
+  /* padding-top: 200px; */
   margin-top: 0px;
   margin-bottom: 30px;
 }
@@ -185,7 +187,7 @@ header {
 .hero a {
   display: inline-block;
   padding: 10px 32px;
-  margin-bottom: 200px;
+  /* margin-bottom: 200px; */
   border-radius: 4px;
   font-weight: 700;
   background-color: var(--accent-color);
@@ -208,6 +210,11 @@ header {
   color: var(--primary-bg-color); */
 }
 
+.softskill {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .softskill ul,
 li {
   margin-top: 0px;
@@ -222,8 +229,8 @@ li:last-child {
 
 .softskill-list {
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  /* padding-top: 94px;
+  padding-bottom: 94px; */
   padding-left: 0px;
 }
 
@@ -294,6 +301,10 @@ li:last-child {
   background-color: var(--background-color-third);
 }
 
+.team img {
+  height: 260px;
+}
+
 .team-list {
   display: flex;
 }
@@ -309,9 +320,12 @@ li:last-child {
   margin-right: 0px;
 }
 
+.do {
+  padding-bottom: 94px;
+}
+
 .do h2,
 .team h2 {
-  padding-top: 94px;
   margin-top: 0px;
   margin-bottom: 50px;
   text-align: center;
@@ -324,23 +338,25 @@ li:last-child {
 .do ul {
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-bottom: 94px;
   padding-left: 0px;
+}
+
+.team {
+  padding-bottom: 94px;
 }
 
 .team ul {
   margin: 0px;
-  padding-bottom: 94px;
   padding-left: 0px;
 }
 
 .team li {
   background-color: var(--primary-bg-color);
-  margin-bottom: 94px;
 }
 
-.team img {
-  margin-bottom: 30px;
+.employee-info {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .employee-info h3 {
@@ -356,7 +372,6 @@ li:last-child {
 .employee-info p {
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-bottom: 30px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18em;
