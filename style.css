@@ -85,6 +85,12 @@ header {
   color: var(--primary-bg-color);
 }
 /* Меню сайта */
+
+.container .main-nav {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 .main-nav {
   display: flex;
   align-items: center;
