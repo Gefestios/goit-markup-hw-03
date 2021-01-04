@@ -61,6 +61,11 @@ header {
   padding-bottom: 25px; */
 }
 
+.logo-footer {
+  font-family: 'Raleway', sans-serif;
+  color: var(--primary-text-color);
+}
+
 .logo-blue {
   font-weight: 700;
   font-size: 26px;
@@ -108,25 +113,24 @@ header {
   /* color: var(--accent-color); */
 }
 
-.main-nav-list .item {
-  /* background-color: tomato; */
-  padding-top: 32px;
-  padding-bottom: 32px;
-  margin-right: 50px;
-}
-
 .main-nav-list .item:last-child {
   margin-right: 0px;
 }
 
-.current {
-  color: var(--accent-color);
+.main-nav-list .item {
+  /* background-color: tomato; */
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
+/* .current {
+  color: var(--accent-color);
+} */
+
 /* .main-nav a:visited, */
-.main-nav-list .link:active,
-.main-nav-list .link:hover,
-.main-nav-list .link:focus {
+.main-nav-list a:active,
+.main-nav-list a:hover,
+.main-nav-list a:focus {
   color: var(--accent-color);
 }
 .main-tel {
@@ -140,7 +144,6 @@ header {
   padding-top: 32px;
   padding-bottom: 32px;
   margin-right: 50px;
-  /* background-color: yellowgreen; */
 }
 
 .main-tel .item:last-child {
@@ -209,7 +212,7 @@ header {
 .softskill ul,
 li {
   margin-top: 0px;
-  margin-right: 8px;
+  margin-right: 50px;
   margin-bottom: 0px;
 }
 
@@ -348,6 +351,8 @@ li:last-child {
 .employee-info {
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 .employee-info h3 {
@@ -376,11 +381,10 @@ li:last-child {
 }
 
 .button-list {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .menu ul {
-  margin: 0px;
   padding-left: 0px;
 }
 
@@ -400,7 +404,6 @@ li:last-child {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-  border: 1px solid #eeeeee;
 }
 
 .flex-element a {
@@ -417,17 +420,18 @@ li:last-child {
 
 .skill-info {
   background: var(--primary-bg-color);
-  /* border: 1px solid #eeeeee; */
-  /* box-sizing: border-box; */
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
   padding-left: 24px;
-  /* padding-right: 24px; */
+  padding-right: 24px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 .skill-info h3 {
   margin: 0px;
-  padding-bottom: 4px;
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2em;
@@ -451,7 +455,7 @@ footer {
 }
 
 .adress-one ul {
-  margin-top: 20px;
+  /* margin-top: 20px; */
   margin-bottom: 0px;
   padding: 0px;
 }
@@ -464,6 +468,7 @@ footer {
 }
 
 .address {
+  margin-top: 20px;
   font-style: normal;
   text-decoration: none;
   font-weight: 400;
