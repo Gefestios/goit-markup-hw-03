@@ -212,7 +212,7 @@ header {
 .softskill ul,
 li {
   margin-top: 0px;
-  margin-right: 50px;
+  margin-right: 8px;
   margin-bottom: 0px;
 }
 
@@ -381,6 +381,7 @@ li:last-child {
 }
 
 .button-list {
+  margin-top: 0px;
   margin-bottom: 50px;
 }
 
@@ -397,6 +398,8 @@ li:last-child {
   /* background-color: teal; */
   display: flex;
   flex-wrap: wrap;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .flex-element {
@@ -454,8 +457,12 @@ footer {
   padding: 60px 0px;
 }
 
+address {
+  margin-top: 20px;
+}
+
 .adress-one ul {
-  /* margin-top: 20px; */
+  margin-top: 0px;
   margin-bottom: 0px;
   padding: 0px;
 }
